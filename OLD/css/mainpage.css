@@ -1,0 +1,144 @@
+#downtown:hover {background-color: rgba(145, 196, 241, 0.6);}
+
+#uppermain:hover {background-color: rgba(191, 204, 220, 0.6);}
+
+#centennial:hover {background-color: rgba(245, 211, 148, 0.6);}
+
+#oldjefferson:hover {background-color: rgba(242, 160, 164, 0.6);}
+
+#parkmarry:hover {background-color: rgba(225, 220, 138, 0.6);}
+
+#stmary:hover {background-color: rgba(248, 221, 200, 0.7);}
+
+#ninthsthill:hover {background-color: rgba(222, 168, 194, 0.6);}
+
+#ellsworth:hover {background-color: rgba(65, 149, 149, 0.6);}
+
+#highlandpaer:hover {background-color: rgba(111, 160, 226, 0.7);}
+
+#perrin:hover {background-color: rgba(149, 169, 232, 0.8);}
+
+#downtown, #uppermain, #centennial, #oldjefferson, #parkmarry, #stmary, #ninthsthill, #ellsworth, #highlandpaer, #perrin{
+  font-size: 25px;
+}
+body {
+	font-size: 120%;
+  	background: #F8F8FF;
+}
+
+
+a{
+	text-decoration: none;
+	color: #0d1621;
+	}
+.titleInfo {
+  text-align: center;
+  padding-bottom: 2px;
+
+}
+
+h1 { color: #111; 
+     font-family: "Roboto", "Helvetica Neue, Helvetica, Arial", sans-serif;
+     font-size: 64px; 
+     width: 50%;
+     font-weight: 700; 
+     line-height: 64px; 
+     margin: 0 0 0; 
+     padding: 20px 30px; 
+     text-align: center; 
+     text-transform: uppercase; 
+     display:inline-block;
+}
+
+table{
+	border: 1px solid black;
+	width:25%;
+	border-radius: 5%;
+	vertical-align:center;
+}
+th{
+  background-color: #5F9EA0;
+  color: white;
+  text-align: center; 
+  font-size:30px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}	
+
+td{
+  padding: 10px;
+  text-align: center; 
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+.buttonlogin:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.img-container {
+	float: left;
+  padding: 1px;
+	margin-left:32%; 
+  width: 30%;
+}
+
+.elements {
+  display: inline;
+  padding-bottom: 50px;
+}
+.contentAdmin {
+  width:20%;
+}
+.buttons {
+  float: center;
+  display: inline;
+}
+
+.titleInfo {
+  width: 100%%;
+  float: center;
+}
+
+.notifications{
+  width: 100%;
+  float: center;
+}
+
+.inside {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.hr-sect {
+  display: inline-flex;
+  width: 50%;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.35);
+  margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0.35);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: #5F9EA0;
+}
+.col-md-12 {
+  text-align: center;
+}
+
+#footerText {
+  font-size:17px;
+}
